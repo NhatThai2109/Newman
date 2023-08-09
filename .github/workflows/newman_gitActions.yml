@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2-beta
         with:
-          node-version: '18.16.1'
+          node-version: 18.16.1
           collection: LIBERTY EXCHANGE - FEATURE.postman_collection.json
           environment: EXCHANGE_STAGING.postman_environment.json
           data: data_input.json
